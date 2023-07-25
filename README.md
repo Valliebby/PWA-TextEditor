@@ -60,6 +60,17 @@ This project is licensed under the MIT License. Feel free to use and modify the 
 
 
 
+https://github.com/Valliebby/PWA-TextEditor/assets/119483866/fdbe8695-8c80-4485-b583-eb768caa60f6
 
+
+The following image shows the application's Manifest.json file:
+![Screen Shot 2023-07-25 at 5 34 41 PM](https://github.com/Valliebby/PWA-TextEditor/assets/119483866/eaa51fbe-869c-4e49-a320-8d95ea3f0112)
+
+The following image shows the application's registered service worker:
+
+![Screen Shot 2023-07-25 at 5 33 47 PM](https://github.com/Valliebby/PWA-TextEditor/assets/119483866/654cea3b-93cf-4d63-a8e7-3f4dd29f1825)
+
+The following image shows the application's IndexedDB storage:
+![Screen Shot 2023-07-25 at 5 39 08 PM](https://github.com/Valliebby/PWA-TextEditor/assets/119483866/34e9cae4-291c-4623-a3b7-e81cfd9c8f21)
 
 
