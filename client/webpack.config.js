@@ -35,8 +35,8 @@ module.exports = () => {
       fingerprints: false,
       inject: true,
       name: 'Text Editor',
-      short_name: 'Contact',
-      description: 'Never forget your contacts!',
+      short_name: 'Text_Editor',
+      description: 'Text Editing Application',
       background_color: '#225ca3',
       theme_color: '#225ca3',
       start_url: './',
@@ -54,7 +54,23 @@ module.exports = () => {
 
     module: {
       rules: [
-        
+        {
+          test: /\.css$/i,
+          use: ['style-loader', 'css-loader'],
+        },
+        {
+          test: /\.m?js$/,
+          exclude: /node_modules/,
+          // We use babel-loader in order to use ES6.
+          use: {
+            loader: 'babel-loader',
+            options: {
+              presets: ['@babel/preset-env'],
+              plugins: ['@babel/plugin-proposal-object-rest-spread', '@babel/transform-runtime'],
+            },
+          },
+        },
+ 
       ],
     },
   };
